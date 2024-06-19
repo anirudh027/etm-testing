@@ -1,0 +1,1 @@
+java -da -Xmx1024m -classpath ProM66.jar -Djava.util.Arrays.useLegacyMergeSort=true org.processmining.contexts.cli.CLI
