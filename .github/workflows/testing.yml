@@ -26,4 +26,4 @@ jobs:
     - name: Run Java application
       run: |
         
-        java -da -Xmx1024m -classpath dist/*:lib/* -Djava.util.Arrays.useLegacyMergeSort=true org.processmining.contexts.cli.CLI -l
+        java -da -Xmx1024m -classpath dist/*:lib/*: -Djava.util.Arrays.useLegacyMergeSort=true org.processmining.contexts.cli.CLI -l
