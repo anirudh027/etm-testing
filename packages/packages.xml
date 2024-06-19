@@ -436,7 +436,7 @@
     <dependency name="Weka" />
     <dependency name="ProM-Plugins" />
   </package>
-  <package name="GeneralizedConformance" version="6.9.81" os="all" url="http://www.promtools.org/prom6/packages612/GeneralizedConformance/GeneralizedConformance-6.9.81-all.zip" desc="Generalized Conformance" org="Wirtschaftsuniversität Wien, Austria" auto="false" hasPlugins="true" license="GPL" author="Andreas Rogge-Solti" maintainer="Andreas Rogge-Solti" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+  <package name="GeneralizedConformance" version="6.9.81" os="all" url="http://www.promtools.org/prom6/packages612/GeneralizedConformance/GeneralizedConformance-6.9.81-all.zip" desc="Generalized Conformance" org="WirtschaftsuniversitÃ¤t Wien, Austria" auto="false" hasPlugins="true" license="GPL" author="Andreas Rogge-Solti" maintainer="Andreas Rogge-Solti" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
     <dependency name="ProjectedRecallAndPrecision" />
     <dependency name="PNetReplayer" />
     <dependency name="Log" />
@@ -601,7 +601,7 @@
     <dependency name="PetriNets" />
     <dependency name="ProM-Plugins" />
   </package>
-  <package name="StochasticPetriNets" version="6.12.5" os="all" url="http://www.promtools.org/prom6/packages612/StochasticPetriNets/StochasticPetriNets-6.12.5-all.zip" desc="StochasticPetriNets" org="Wirtschaftsuniversität Wien, Austria" auto="false" hasPlugins="true" license="GPL" author="Andreas Rogge-Solti" maintainer="Andreas Rogge-Solti" logo="http://www.solti.de/andi/logo.png" keywords="">
+  <package name="StochasticPetriNets" version="6.12.5" os="all" url="http://www.promtools.org/prom6/packages612/StochasticPetriNets/StochasticPetriNets-6.12.5-all.zip" desc="StochasticPetriNets" org="WirtschaftsuniversitÃ¤t Wien, Austria" auto="false" hasPlugins="true" license="GPL" author="Andreas Rogge-Solti" maintainer="Andreas Rogge-Solti" logo="http://www.solti.de/andi/logo.png" keywords="">
     <dependency name="PNetReplayer" />
     <dependency name="Log" />
     <dependency name="BasicUtils" />
@@ -1743,26 +1743,26 @@
     <dependency name="PNetReplayer" />
     <dependency name="GraphViz" />
     <dependency name="BasicUtils" />
-    <dependency name="LocalizedLogs" />
-    <dependency name="DataDiscovery" />
-    <dependency name="PetriNets" />
-    <dependency name="EfficientStorage" />
-    <dependency name="Widgets" />
-    <dependency name="ApacheUtils" />
-    <dependency name="LogAlignment" />
     <dependency name="Log" />
     <dependency name="AlphaMiner" />
     <dependency name="HeuristicsMiner" />
+    <dependency name="LocalizedLogs" />
     <dependency name="BPMNVisualizer" />
+    <dependency name="DataDiscovery" />
+    <dependency name="PetriNets" />
     <dependency name="PNAnalysis" />
     <dependency name="ProM-Plugins" />
     <dependency name="InductiveMiner" />
     <dependency name="BPMN" />
     <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
     <dependency name="ILPMiner" />
     <dependency name="AcceptingPetriNetMiner" />
     <dependency name="Swimlanes" />
     <dependency name="ProcessTree" />
+    <dependency name="ApacheUtils" />
+    <dependency name="LogAlignment" />
   </package>
   <package name="TraceClustering" version="6.9.150" os="all" url="http://www.promtools.org/prom6/packages612/TraceClustering/TraceClustering-6.9.150-all.zip" desc="TraceClustering" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F.A. Hompes" maintainer="B.F.A. Hompes" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
     <dependency name="Widgets" />
@@ -3002,5 +3002,1459 @@
     <dependency name="PerformanceSpectrumIntegration" />
   </package>
   <installed-packages>
+  <package name="PDC2016" version="6.9.18" os="all" url="http://www.promtools.org/prom6/packages612/PDC2016/PDC2016-6.9.18-all.zip" desc="PDC 2016 log collection" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataAwareReplayerLGPL" version="6.11.8" os="all" url="http://www.promtools.org/prom6/packages612/DataAwareReplayerLGPL/DataAwareReplayerLGPL-6.11.8-all.zip" desc="Multi-perspective Process Conformance Checking based on Alignments. L-GPL part. Implements techniques presented in the article: 'Balanced multi-perspective checking of process conformance' (DOI: 10.1007/s00607-015-0441-1)" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Massimiliano de Leoni, Felix Mannhardt" maintainer="Massimiliano de Leoni, Felix Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="CNet" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="XESAlignmentExtension" />
+    <dependency name="XESLite" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="EfficientStorage" />
+    <dependency name="CNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="ApacheUtils" />
+    <dependency name="DataPetriNetsLGPL" />
+  </package>
+  <package name="CausalActivityGraph" version="6.9.50" os="all" url="http://www.promtools.org/prom6/packages612/CausalActivityGraph/CausalActivityGraph-6.9.50-all.zip" desc="Causal Activity Graph" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="CNet" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Visualisation3D" version="6.10.100" os="all" url="http://www.promtools.org/prom6/packages612/Visualisation3D/Visualisation3D-6.10.100-all.zip" desc="Visualisation 3D is a library to build 3D visualisations in ProM by providing a high-level interface to OpenGL." org="Queensland University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Erik Poppe" maintainer="Erik Poppe" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogProjection" version="6.12.5" os="all" url="http://www.promtools.org/prom6/packages612/LogProjection/LogProjection-6.12.5-all.zip" desc="Log Projection" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="B.F. van Dongen" maintainer="B.F. van Dongen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="XESLite" />
+    <dependency name="XESStandardConnector" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DecomposedMiner" version="6.9.107" os="all" url="http://www.promtools.org/prom6/packages612/DecomposedMiner/DecomposedMiner-6.9.107-all.zip" desc="Decomposed Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNetRedundantPlacesReductor" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNetClassicalReductor" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+    <dependency name="CausalActivityMatrixMiner" />
+    <dependency name="Widgets" />
+    <dependency name="AcceptingPetriNetMiner" />
+    <dependency name="ActivityClusterArrayCreator" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="LogDecomposer" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="CausalActivityGraphCreator" />
+  </package>
+  <package name="OperationalSupport" version="6.9.52" os="all" url="http://www.promtools.org/prom6/packages612/OperationalSupport/OperationalSupport-6.9.52-all.zip" desc="Operational Support" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M. Westergaard" maintainer="M. Westergaard" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="TraceMatching" version="6.10.129" os="all" url="http://www.promtools.org/prom6/packages612/TraceMatching/TraceMatching-6.10.129-all.zip" desc="Trace Matching" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Xixi Lu" maintainer="Xixi Lu" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="PartialOrderReplayer" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="BasicUtils" />
+    <dependency name="PetriNets" />
+    <dependency name="HybridILPMiner" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+    <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="ETConformance" />
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="ApacheUtils" />
+    <dependency name="InductiveVisualMiner" />
+  </package>
+  <package name="Flex" version="6.9.63" os="all" url="http://www.promtools.org/prom6/packages612/Flex/Flex-6.9.63-all.zip" desc="Flex" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="A. Adriansyah" maintainer="A. Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="LogDialog" />
+    <dependency name="Performance" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataDiscovery" version="6.9.103" os="all" url="http://www.promtools.org/prom6/packages612/DataDiscovery/DataDiscovery-6.9.103-all.zip" desc="DataDiscovery" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataPetriNets" />
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LinearLayouts" version="6.9.4" os="all" url="http://www.promtools.org/prom6/packages612/LinearLayouts/LinearLayouts-6.9.4-all.zip" desc="Linear Layouts" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Willem Sonke and Eric Verbeek" maintainer="Willem Sonke and Eric Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogMerge" version="6.9.59" os="all" url="http://www.promtools.org/prom6/packages612/LogMerge/LogMerge-6.9.59-all.zip" desc="Log Merge" org="Ghent University" auto="false" hasPlugins="true" license="L-GPL" author="Jan Claes" maintainer="Jan Claes" logo="http://www.janclaes.info/img/ugentlogo300.jpg" keywords="">
+    <dependency name="Log" />
+    <dependency name="SimpleLogOperations" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AcceptingPetriNetClassicalReductor" version="6.9.38" os="all" url="http://www.promtools.org/prom6/packages612/AcceptingPetriNetClassicalReductor/AcceptingPetriNetClassicalReductor-6.9.38-all.zip" desc="Accepting Petri Net Classical Reductor" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="Cosimulation" version="6.9.56" os="all" url="http://www.promtools.org/prom6/packages612/Cosimulation/Cosimulation-6.9.56-all.zip" desc="Cosimulation" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M. Westergaard" maintainer="M. Westergaard" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="CPNet" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="EMF" />
+  </package>
+  <package name="Widgets" version="6.12.2" os="all" url="http://www.promtools.org/prom6/packages612/Widgets/Widgets-6.12.2-all.zip" desc="Generic widgets" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M. Westergaard and F. Mannhardt" maintainer="M. Westergaard and F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PTLinearVisualization" version="6.9.4" os="all" url="http://www.promtools.org/prom6/packages612/PTLinearVisualization/PTLinearVisualization-6.9.4-all.zip" desc="Linear Visualizer for Process Trees" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Willem Sonke and Eric Verbeek" maintainer="Willem Sonke and Eric Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProcessTree" />
+    <dependency name="LinearLayouts" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="SignatureDiscovery" version="6.11.81" os="all" url="http://www.promtools.org/prom6/packages612/SignatureDiscovery/SignatureDiscovery-6.11.81-all.zip" desc="SignatureDiscovery" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="J.C. Bose" maintainer="J.C. Bose" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="Weka" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PerformanceSpectrumIntegration" version="6.10.55" os="all" url="http://www.promtools.org/prom6/packages612/PerformanceSpectrumIntegration/PerformanceSpectrumIntegration-6.10.55-all.zip" desc="Integrates Performance Spectrum with petrinets and alignments" org="PADS, RWTH Aachen" auto="false" hasPlugins="true" license="GPL" author="Daniel Tacke genannt Unterberg" maintainer="Daniel Tacke genannt Unterberg" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EpisodeMiner" version="6.9.64" os="all" url="http://www.promtools.org/prom6/packages612/EpisodeMiner/EpisodeMiner-6.9.64-all.zip" desc="Inductive Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M Leemans" maintainer="M Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="GeneralizedConformance" version="6.9.81" os="all" url="http://www.promtools.org/prom6/packages612/GeneralizedConformance/GeneralizedConformance-6.9.81-all.zip" desc="Generalized Conformance" org="WirtschaftsuniversitÃ¤t Wien, Austria" auto="false" hasPlugins="true" license="GPL" author="Andreas Rogge-Solti" maintainer="Andreas Rogge-Solti" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProjectedRecallAndPrecision" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="StochasticPetriNets" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="XESLite" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+    <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="EfficientStorage" />
+    <dependency name="ModelRepair" />
+    <dependency name="ProcessTree" />
+    <dependency name="PTConversions" />
+  </package>
+  <package name="PetriNets" version="6.12.2" os="all" url="http://www.promtools.org/prom6/packages612/PetriNets/PetriNets-6.12.2-all.zip" desc="PetriNets" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek, S.J. van Zelst" maintainer="H.M.W. Verbeek, S.J. van Zelst" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PNAnalysis" version="6.10.140" os="all" url="http://www.promtools.org/prom6/packages612/PNAnalysis/PNAnalysis-6.10.140-all.zip" desc="Petri-net Analysis" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="A. Adriansyah" maintainer="A. Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="PetriNets" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EvolutionaryTreeMiner" version="6.12.2" os="all" url="http://www.promtools.org/prom6/packages612/EvolutionaryTreeMiner/EvolutionaryTreeMiner-6.12.2-all.zip" desc="Evolutionary Tree Miner (ETM)" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Joos Buijs" maintainer="Joos Buijs" logo="https://svn.win.tue.nl/repos/prom/Packages/EvolutionaryTreeMiner/Trunk/me_Lync.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PTMerge" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="ProcessTree" />
+    <dependency name="ApacheUtils" />
+    <dependency name="Properties" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="Monte" version="6.9.7" os="all" url="http://www.promtools.org/prom6/packages612/Monte/Monte-6.9.7-all.zip" desc="Monte" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Sander Leemans" maintainer="Sander Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="TransitionSystems" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/TransitionSystems/TransitionSystems-6.12.1-all.zip" desc="Transition Systems" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="Animation" />
+    <dependency name="OSService" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EPC" version="6.9.55" os="all" url="http://www.promtools.org/prom6/packages612/EPC/EPC-6.9.55-all.zip" desc="EPC" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ActivityClusterArray" version="6.9.66" os="all" url="http://www.promtools.org/prom6/packages612/ActivityClusterArray/ActivityClusterArray-6.9.66-all.zip" desc="Activity Cluster Array" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="TSPetrinet" version="6.9.69" os="all" url="http://www.promtools.org/prom6/packages612/TSPetrinet/TSPetrinet-6.9.69-all.zip" desc="Transition Systems vs. Petri nets" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F. van Dongen" maintainer="B.F. van Dongen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Petrify" />
+    <dependency name="PetriNets" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ETConformance" version="6.9.52" os="all" url="http://www.promtools.org/prom6/packages612/ETConformance/ETConformance-6.9.52-all.zip" desc="ETConformance" org="Universitat Politecnica de Catalunya" auto="false" hasPlugins="true" license="L-GPL" author="J. Munoz-Gama" maintainer="J. Munoz-Gama" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="PetriNets" />
+    <dependency name="PNAnalysis" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="TraceClustering" version="6.9.150" os="all" url="http://www.promtools.org/prom6/packages612/TraceClustering/TraceClustering-6.9.150-all.zip" desc="TraceClustering" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F.A. Hompes" maintainer="B.F.A. Hompes" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="ApacheUtils" />
+    <dependency name="MarkovClustering" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ProM-Models" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/ProM-Models/ProM-Models-6.12.1-all.zip" desc="ProM-Models" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="ProM" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Framework" />
+  </package>
+  <package name="CausalActivityMatrixCreator" version="6.9.52" os="all" url="http://www.promtools.org/prom6/packages612/CausalActivityMatrixCreator/CausalActivityMatrixCreator-6.9.52-all.zip" desc="Causal Activity Matrix Creator" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="PetriNets" />
+    <dependency name="PNAnalysis" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="BPMNAnalysis" version="6.9.87" os="all" url="http://www.promtools.org/prom6/packages612/BPMNAnalysis/BPMNAnalysis-6.9.87-all.zip" desc="BPMN Analysis" org="Higher School of Economics (HSE)" auto="false" hasPlugins="true" license="GPL" author="Anna Kalenkova" maintainer="Anna Kalenkova" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataExpression" />
+    <dependency name="GraphViz" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="HeuristicsMiner" />
+    <dependency name="HeuristicsCNetMiner" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="BPMN" />
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="YAWL" />
+    <dependency name="ProcessTree" />
+    <dependency name="Flex" />
+    <dependency name="SocialNetwork" />
+    <dependency name="BPMNConversions" />
+    <dependency name="FlexReplayer" />
+  </package>
+  <package name="InductiveMinerDeprecated" version="6.12.2" os="all" url="http://www.promtools.org/prom6/packages612/InductiveMinerDeprecated/InductiveMinerDeprecated-6.12.2-all.zip" desc="Discovers process models from event logs recursively, deprecated" org="Queensland University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="SJJ Leemans" maintainer="SJJ Leemans" logo="http://leemans.ch/figures/logoInductiveMiner.png" keywords="">
+    <dependency name="PNetReplayer" />
+    <dependency name="Sat4j" />
+    <dependency name="GraphViz" />
+    <dependency name="ProcessTree" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="AutoAssociationPlot" version="6.9.9" os="all" url="http://www.promtools.org/prom6/packages612/AutoAssociationPlot/AutoAssociationPlot-6.9.9-all.zip" desc="AutoAssociationPlot" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="N. Tax" maintainer="N. Tax" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="Weka" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AcceptingPetriNetRedundantPlacesReductor" version="6.9.47" os="all" url="http://www.promtools.org/prom6/packages612/AcceptingPetriNetRedundantPlacesReductor/AcceptingPetriNetRedundantPlacesReductor-6.9.47-all.zip" desc="Accepting Petri Net Redundant Places Reductor" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="StochasticPetriNets" version="6.12.5" os="all" url="http://www.promtools.org/prom6/packages612/StochasticPetriNets/StochasticPetriNets-6.12.5-all.zip" desc="StochasticPetriNets" org="WirtschaftsuniversitÃ¤t Wien, Austria" auto="false" hasPlugins="true" license="GPL" author="Andreas Rogge-Solti" maintainer="Andreas Rogge-Solti" logo="http://www.solti.de/andi/logo.png" keywords="">
+    <dependency name="PNetReplayer" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="XESLite" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="Weka" />
+    <dependency name="InductiveMiner" />
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="ModelRepair" />
+    <dependency name="ILPMiner" />
+    <dependency name="ProcessTree" />
+    <dependency name="ApacheUtils" />
+    <dependency name="PTConversions" />
+    <dependency name="TransitionSystems" />
+  </package>
+  <package name="PatternMining" version="6.9.3" os="all" url="http://www.promtools.org/prom6/packages612/PatternMining/PatternMining-6.9.3-all.zip" desc="PatternMining, GPL spin of from L_GPL'ed PNetAlignmentAnalysis" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="Weka" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PDC2017" version="6.9.22" os="all" url="http://www.promtools.org/prom6/packages612/PDC2017/PDC2017-6.9.22-all.zip" desc="PDC 2017 Event log collection" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EMF" version="6.9.74" os="all" url="http://www.promtools.org/prom6/packages612/EMF/EMF-6.9.74-all.zip" desc="Eclipse Modeling Framework" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="EPL" author="D.M.M. Schunselaar" maintainer="D.M.M. Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="BasicUtils" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/BasicUtils/BasicUtils-6.12.1-all.zip" desc="Basic Utils" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="GraphStream" version="6.9.17" os="all" url="http://www.promtools.org/prom6/packages612/GraphStream/GraphStream-6.9.17-all.zip" desc="GraphStream" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AcceptingPetriNet" version="6.11.196" os="all" url="http://www.promtools.org/prom6/packages612/AcceptingPetriNet/AcceptingPetriNet-6.11.196-all.zip" desc="Accepting Petri Net" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="CNet" version="6.9.174" os="all" url="http://www.promtools.org/prom6/packages612/CNet/CNet-6.9.174-all.zip" desc="Provides causal nets, visualizers for causal nets and mining algorithms for causal nets." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Felix Mannhardt, Arya Adriansyah" maintainer="Felix Mannhardt, Arya Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataExpression" />
+    <dependency name="GraphViz" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ComplianceFramework" version="6.10.49" os="all" url="http://www.promtools.org/prom6/packages612/ComplianceFramework/ComplianceFramework-6.10.49-all.zip" desc="Compliance Framework" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Vladimir Gromov" maintainer="Vladimir Gromov" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="GraphViz" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Compliance" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Daikon" />
+    <dependency name="DataPetriNets" />
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="ApacheUtils" />
+  </package>
+  <package name="PomPomView" version="6.9.57" os="all" url="http://www.promtools.org/prom6/packages612/PomPomView/PomPomView-6.9.57-all.zip" desc="PomPom View" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="EPCConversion" />
+    <dependency name="Log" />
+    <dependency name="EPC" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="BPMNConversions" version="6.9.117" os="all" url="http://www.promtools.org/prom6/packages612/BPMNConversions/BPMNConversions-6.9.117-all.zip" desc="BPMN Conversions (to and from)" org="Moscow The Higher School of Economics" auto="false" hasPlugins="true" license="L-GPL" author="Anna Kalenkova" maintainer="Anna Kalenkova" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="DataExpression" />
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProcessTree" />
+    <dependency name="Flex" />
+    <dependency name="ApacheUtils" />
+    <dependency name="Properties" />
+    <dependency name="DataPetriNetsLGPL" />
+    <dependency name="PetriNets" />
+    <dependency name="PNAnalysis" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="InteractiveVisualization" version="6.9.57" os="all" url="http://www.promtools.org/prom6/packages612/InteractiveVisualization/InteractiveVisualization-6.9.57-all.zip" desc="Interactive Visualization" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Danny van Heumen" maintainer="Danny van Heumen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataPetriNetsLGPL" version="6.11.7" os="all" url="http://www.promtools.org/prom6/packages612/DataPetriNetsLGPL/DataPetriNetsLGPL-6.11.7-all.zip" desc="DataPetriNets (L-GPL part)" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Massimiliano de Leoni" maintainer="Massimiliano de Leoni" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataExpression" />
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="GraphViz" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="CPNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ActivityClusterArrayCreator" version="6.9.64" os="all" url="http://www.promtools.org/prom6/packages612/ActivityClusterArrayCreator/ActivityClusterArrayCreator-6.9.64-all.zip" desc="Activity Cluster Array Creator" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+  </package>
+  <package name="PetriNetReplayAnalysis" version="6.9.57" os="all" url="http://www.promtools.org/prom6/packages612/PetriNetReplayAnalysis/PetriNetReplayAnalysis-6.9.57-all.zip" desc="PetriNet Replay Conformance and Performance Analysis" org="Department of Computer Science University of Pisa" auto="false" hasPlugins="true" license="L-GPL" author="Giorgio Spagnolo (spagnolo@di.unipi.it), Roberto Guanciale (guancio@gmail.com), et all." maintainer="Giorgio Spagnolo (spagnolo@di.unipi.it), Roberto Guanciale (guancio@gmail.com), et all." logo="http://compass2.di.unipi.it/Didattica/img/cheru.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="InteractiveVisualization" />
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="LogDialog" />
+    <dependency name="LogMerge" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="GuideTreeMiner" version="6.9.57" os="all" url="http://www.promtools.org/prom6/packages612/GuideTreeMiner/GuideTreeMiner-6.9.57-all.zip" desc="GuideTreeMiner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J.C. Bose" maintainer="J.C. Bose" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="GPLv2Utils" version="6.9.73" os="all" url="http://www.promtools.org/prom6/packages612/GPLv2Utils/GPLv2Utils-6.9.73-all.zip" desc="GPL v2 Utils" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL v2" author="Dennis Schunselaar" maintainer="Dennis Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="Saxon" />
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="SelectivePRepair" version="6.9.54" os="all" url="http://www.promtools.org/prom6/packages612/SelectivePRepair/SelectivePRepair-6.9.54-all.zip" desc="SelectivePRepair" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Xixi Lu, Artem Polyvyanyy" maintainer="Xixi Lu, Artem Polyvyanyy" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="PartialOrderReplayer" />
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Scala" version="6.9.15" os="all" url="http://www.promtools.org/prom6/packages612/Scala/Scala-6.9.15-all.zip" desc="Scala" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="BSD 3-Clause" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AcceptingPetriNetReductionLayouter" version="6.9.41" os="all" url="http://www.promtools.org/prom6/packages612/AcceptingPetriNetReductionLayouter/AcceptingPetriNetReductionLayouter-6.9.41-all.zip" desc="Accepting Petri Net Reduction Layouter" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ProcessLogGenerator" version="6.9.53" os="all" url="http://www.promtools.org/prom6/packages612/ProcessLogGenerator/ProcessLogGenerator-6.9.53-all.zip" desc="Process Log Generator" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="A. Burattin" maintainer="A. Burattin" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="InteractiveVisualization" />
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="HeuristicsMiner" />
+    <dependency name="LogDialog" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PatternAbstractions" version="6.9.56" os="all" url="http://www.promtools.org/prom6/packages612/PatternAbstractions/PatternAbstractions-6.9.56-all.zip" desc="Pattern Abstractions" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J.C Bose" maintainer="J.C Bose" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="InteractiveVisualization" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="CSMMiner" version="6.9.73" os="all" url="http://www.promtools.org/prom6/packages612/CSMMiner/CSMMiner-6.9.73-all.zip" desc="Composite State Machine Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M.L. van Eck" maintainer="M.L. van Eck" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="LogDialog" />
+    <dependency name="XESLite" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AcceptingPetriNetMiner" version="6.9.97" os="all" url="http://www.promtools.org/prom6/packages612/AcceptingPetriNetMiner/AcceptingPetriNetMiner-6.9.97-all.zip" desc="Accepting Petri Net Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="AlphaMiner" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNetClassicalReductor" />
+    <dependency name="HeuristicsMiner" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="HybridILPMiner" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+    <dependency name="CausalActivityMatrixMiner" />
+    <dependency name="InductiveMiner" />
+    <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="Widgets" />
+    <dependency name="ILPMiner" />
+    <dependency name="ProcessTree" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="ApacheUtils" />
+    <dependency name="LogDecomposer" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="CausalActivityGraphCreator" />
+  </package>
+  <package name="StochasticLabelledPetriNets" version="6.12.44" os="all" url="http://www.promtools.org/prom6/packages612/StochasticLabelledPetriNets/StochasticLabelledPetriNets-6.12.44-all.zip" desc="StochasticLabelledPetriNets" org="Queensland University of Technology" auto="false" hasPlugins="true" license="GPL" author="Sander Leemans, Fabrizio Maggi, and Marco Montali" maintainer="Sander Leemans, Fabrizio Maggi, and Marco Montali" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="LTL2Automaton" />
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="LpSolve" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="ProcessTree" version="6.9.98" os="all" url="http://www.promtools.org/prom6/packages612/ProcessTree/ProcessTree-6.9.98-all.zip" desc="ProcessTree" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J.C.A.M. Buijs, B.F. van Dongen, D.M.M. Schunselaar, and H.M.W. Verbeek" maintainer="J.C.A.M. Buijs, B.F. van Dongen, D.M.M. Schunselaar, and H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="YAWL" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PTConversions" version="6.9.35" os="all" url="http://www.promtools.org/prom6/packages612/PTConversions/PTConversions-6.9.35-all.zip" desc="New Package with Ivy" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="YAWL" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProcessTree" />
+    <dependency name="EPC" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DecomposedReplayer" version="6.9.177" os="all" url="http://www.promtools.org/prom6/packages612/DecomposedReplayer/DecomposedReplayer-6.9.177-all.zip" desc="Decomposed Replayer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="CausalActivityMatrixCreator" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+    <dependency name="CausalActivityMatrixMiner" />
+    <dependency name="ActivityClusterArrayExtractor" />
+    <dependency name="Widgets" />
+    <dependency name="AcceptingPetriNetDecomposer" />
+    <dependency name="ActivityClusterArrayCreator" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="LogAlignment" />
+    <dependency name="LogDecomposer" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="CausalActivityGraphCreator" />
+  </package>
+  <package name="Precision" version="6.11.18" os="all" url="http://www.promtools.org/prom6/packages612/Precision/Precision-6.11.18-all.zip" desc="Precision metrics" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="ActivityClusterArrayExtractor" />
+    <dependency name="Widgets" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNetDecomposer" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PNetAlignmentAnalysis" version="6.10.114" os="all" url="http://www.promtools.org/prom6/packages612/PNetAlignmentAnalysis/PNetAlignmentAnalysis-6.10.114-all.zip" desc="PNetAlignmentAnalysis" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F. van Dongen" maintainer="B.F. van Dongen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="TraceAlignmentWithGuideTree" />
+    <dependency name="GuideTreeMiner" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogEnhancement" version="6.9.371" os="all" url="http://www.promtools.org/prom6/packages612/LogEnhancement/LogEnhancement-6.9.371-all.zip" desc="Plug-ins that visualizes, enhances, transforms, repairs, merges, filters, abstracts, sorts event logs." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataPetriNets" />
+    <dependency name="GraphViz" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="XESLite" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="EfficientStorage" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/EfficientStorage/EfficientStorage-6.12.1-all.zip" desc="EfficientStorage" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Boudewijn van Dongen" maintainer="Boudewijn van Dongen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="LpSolve" />
+    <dependency name="BasicUtils" />
+  </package>
+  <package name="GraphViz" version="6.12.4" os="all" url="http://www.promtools.org/prom6/packages612/GraphViz/GraphViz-6.12.4-all.zip" desc="Library to layout and display graphs" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="SJJ Leemans" maintainer="SJJ Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="KitFox" />
+    <dependency name="Widgets" />
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EstablishedPackages" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/EstablishedPackages/EstablishedPackages-6.12.1-all.zip" desc="Established Packages" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="TSPetrinet" />
+    <dependency name="PomPomView" />
+    <dependency name="BasicUtils" />
+    <dependency name="StochasticPetriNets" />
+    <dependency name="PetriNets" />
+    <dependency name="Daikon" />
+    <dependency name="DataPetriNets" />
+    <dependency name="Alignment" />
+    <dependency name="CNetReplayer" />
+    <dependency name="AcceptingPetriNetReductionLayouter" />
+    <dependency name="LogDialog" />
+    <dependency name="ApacheUtils" />
+    <dependency name="DecomposedReplayer" />
+    <dependency name="GraphStream" />
+    <dependency name="BPMNConversions" />
+    <dependency name="PTMerge" />
+    <dependency name="CPNet" />
+    <dependency name="Log" />
+    <dependency name="HeuristicsMiner" />
+    <dependency name="Monte" />
+    <dependency name="Petrify" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+    <dependency name="DecomposedMiner" />
+    <dependency name="ActivityClusterArrayCreator" />
+    <dependency name="Flex" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="Cosimulation" />
+    <dependency name="Performance" />
+    <dependency name="PartialOrderReplayer" />
+    <dependency name="EpisodeMiner" />
+    <dependency name="GPLv2Utils" />
+    <dependency name="CausalActivityMatrixCreator" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Sat4j" />
+    <dependency name="EarthMoversStochasticConformanceChecking" />
+    <dependency name="AcceptingPetriNetRedundantPlacesReductor" />
+    <dependency name="CNet" />
+    <dependency name="PPM" />
+    <dependency name="XESLite" />
+    <dependency name="XESStandard" />
+    <dependency name="AcceptingPetriNetDecomposer" />
+    <dependency name="LogEnhancement" />
+    <dependency name="LogAlignment" />
+    <dependency name="LogDecomposer" />
+    <dependency name="FlexReplayer" />
+    <dependency name="PatternMining" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ConceptDrift" />
+    <dependency name="LogAbstractions" />
+    <dependency name="EPCConversion" />
+    <dependency name="MultiPerspectiveProcessExplorer" />
+    <dependency name="AlphaMiner" />
+    <dependency name="SignatureDiscovery" />
+    <dependency name="LogSkeleton" />
+    <dependency name="PNAnalysis" />
+    <dependency name="BPSim" />
+    <dependency name="ActivityClusterArrayExtractor" />
+    <dependency name="BPMN" />
+    <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="ILPMiner" />
+    <dependency name="InductiveMinerDeprecated" />
+    <dependency name="Animation" />
+    <dependency name="Statechart" />
+    <dependency name="PTConversions" />
+    <dependency name="DataAwareCNetMiner" />
+    <dependency name="DirectlyFollowsModelMiner" />
+    <dependency name="DataExpression" />
+    <dependency name="Compliance" />
+    <dependency name="LocalizedLogs" />
+    <dependency name="HeuristicsCNetMiner" />
+    <dependency name="HybridILPMiner" />
+    <dependency name="ProcessLogGenerator" />
+    <dependency name="OperationalSupport" />
+    <dependency name="EfficientStorage" />
+    <dependency name="ETConformance" />
+    <dependency name="GraphVisualizers" />
+    <dependency name="Widgets" />
+    <dependency name="BPMNAnalysis" />
+    <dependency name="TraceAlignment" />
+    <dependency name="FilterBook" />
+    <dependency name="Saxon" />
+    <dependency name="Visualisation3D" />
+    <dependency name="COSAImportExport" />
+    <dependency name="EMF" />
+    <dependency name="CohortAnalysis" />
+    <dependency name="LogMerge" />
+    <dependency name="Uma" />
+    <dependency name="UncertaintyMarker" />
+    <dependency name="Woflan" />
+    <dependency name="XESAlignmentExtension" />
+    <dependency name="OSService" />
+    <dependency name="ActivityClusterArray" />
+    <dependency name="Murata" />
+    <dependency name="BPMNMeasures" />
+    <dependency name="AcceptingPetriNetMiner" />
+    <dependency name="DivideAndConquer" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="InductiveVisualMiner" />
+    <dependency name="CausalActivityGraphCreator" />
+    <dependency name="ProjectedRecallAndPrecision" />
+    <dependency name="KitFox" />
+    <dependency name="GraphViz" />
+    <dependency name="LogProjection" />
+    <dependency name="PetriNetReplayAnalysis" />
+    <dependency name="AcceptingPetriNetClassicalReductor" />
+    <dependency name="AProMore" />
+    <dependency name="DataDiscovery" />
+    <dependency name="Properties" />
+    <dependency name="XESStandardConnector" />
+    <dependency name="CausalActivityMatrixMiner" />
+    <dependency name="SimpleLogOperations" />
+    <dependency name="TraceAlignmentWithGuideTree" />
+    <dependency name="SelectivePRepair" />
+    <dependency name="LogTimeFilter" />
+    <dependency name="SLog" />
+    <dependency name="Scala" />
+    <dependency name="FeaturePrediction" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="GuideTreeMiner" />
+    <dependency name="Weka" />
+    <dependency name="PDC2017" />
+    <dependency name="InteractiveVisualization" />
+    <dependency name="PDC2016" />
+    <dependency name="ModelRepair" />
+    <dependency name="YAWL" />
+    <dependency name="PDC2019" />
+    <dependency name="ProcessTree" />
+    <dependency name="PrimeMiner" />
+    <dependency name="TraceMatching" />
+    <dependency name="PatternAbstractions" />
+    <dependency name="SocialNetwork" />
+    <dependency name="EPC" />
+    <dependency name="Petra" />
+    <dependency name="StatisticalTests" />
+    <dependency name="Fuzzy" />
+    <dependency name="DataAwareExplorer" />
+  </package>
+  <package name="CohortAnalysis" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/CohortAnalysis/CohortAnalysis-6.12.1-all.zip" desc="Cohort Analysis" org="Queensland University of Technology" auto="false" hasPlugins="true" license="GPL" author="Sander Leemans" maintainer="Sander Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="EarthMoversStochasticConformanceChecking" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="Filterd" version="6.10.104" os="all" url="http://www.promtools.org/prom6/packages612/Filterd/Filterd-6.10.104-all.zip" desc="Filter framework" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="SEP Group 9" maintainer="SEP Group 9" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="XESAlignmentExtension" version="6.9.67" os="all" url="http://www.promtools.org/prom6/packages612/XESAlignmentExtension/XESAlignmentExtension-6.9.67-all.zip" desc="XAlignmentExtension a XES extension that supports storing alignments between an event log and a model." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EPCConversion" version="6.9.50" os="all" url="http://www.promtools.org/prom6/packages612/EPCConversion/EPCConversion-6.9.50-all.zip" desc="EPC Conversion" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="EPC" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="SocialNetwork" version="6.9.73" os="all" url="http://www.promtools.org/prom6/packages612/SocialNetwork/SocialNetwork-6.9.73-all.zip" desc="SocialNetwork" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="A. Syamsiyah, B.F. van Dongen, M.S. Song, S.J. van Zelst" maintainer="A. Syamsiyah, B.F. van Dongen, M.S. Song, S.J. van Zelst" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="GraphStream" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ApacheUtils" version="6.12.2" os="all" url="http://www.promtools.org/prom6/packages612/ApacheUtils/ApacheUtils-6.12.2-all.zip" desc="Apache Utils" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="Apache 2.0" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AProMore" version="6.9.61" os="all" url="http://www.promtools.org/prom6/packages612/AProMore/AProMore-6.9.61-all.zip" desc="AProMore" org="Queensland University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="P. Napoli" maintainer="P. Napoli" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="Widgets" />
+    <dependency name="YAWL" />
+    <dependency name="Log" />
+    <dependency name="Flex" />
+    <dependency name="LogDialog" />
+    <dependency name="ApacheUtils" />
+    <dependency name="EPC" />
+    <dependency name="FlexReplayer" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Properties" version="6.9.106" os="all" url="http://www.promtools.org/prom6/packages612/Properties/Properties-6.9.106-all.zip" desc="Generic properties" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="D.M.M. Schunselaar" maintainer="D.M.M. Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PPM" version="6.9.63" os="all" url="http://www.promtools.org/prom6/packages612/PPM/PPM-6.9.63-all.zip" desc="Process of Process Modeling" org="Ghent University" auto="false" hasPlugins="true" license="L-GPL" author="Jan Claes" maintainer="Jan Claes" logo="http://www.janclaes.info/img/ugentlogo300.jpg" keywords="">
+    <dependency name="Log" />
+    <dependency name="SimpleLogOperations" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="BPSim" version="6.9.69" os="all" url="http://www.promtools.org/prom6/packages612/BPSim/BPSim-6.9.69-all.zip" desc="BPSim" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="D.M.M. Schunselaar" maintainer="D.M.M. Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="ProcessTree" />
+    <dependency name="ApacheUtils" />
+    <dependency name="BPMNConversions" />
+    <dependency name="Properties" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AcceptingPetriNetDecomposer" version="6.9.122" os="all" url="http://www.promtools.org/prom6/packages612/AcceptingPetriNetDecomposer/AcceptingPetriNetDecomposer-6.9.122-all.zip" desc="Accepting Petri Net Decomposer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+    <dependency name="Murata" />
+  </package>
+  <package name="CausalActivityMatrixMiner" version="6.9.62" os="all" url="http://www.promtools.org/prom6/packages612/CausalActivityMatrixMiner/CausalActivityMatrixMiner-6.9.62-all.zip" desc="Causal Activity Matrix Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="EarthMoversStochasticConformanceChecking" version="6.12.18" os="all" url="http://www.promtools.org/prom6/packages612/EarthMoversStochasticConformanceChecking/EarthMoversStochasticConformanceChecking-6.12.18-all.zip" desc="Earth Movers Stochastic Conformance Checking" org="Queensland University of Technology, RWTH Aachen" auto="false" hasPlugins="true" license="GPL" author="Sander Leemans, Anja Syring" maintainer="Sander Leemans, Anja Syring" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="StochasticLabelledPetriNets" />
+    <dependency name="Widgets" />
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="LpSolve" />
+    <dependency name="StochasticPetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ProjectedRecallAndPrecision" version="6.11.213" os="all" url="http://www.promtools.org/prom6/packages612/ProjectedRecallAndPrecision/ProjectedRecallAndPrecision-6.11.213-all.zip" desc="ProjectedRecallAndPrecision" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="S.J.J. Leemans" maintainer="S.J.J. Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="GraphViz" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="ApacheUtils" />
+    <dependency name="InductiveVisualMiner" />
+    <dependency name="TransitionSystems" />
+    <dependency name="PNAnalysis" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="Compliance" version="6.9.82" os="all" url="http://www.promtools.org/prom6/packages612/Compliance/Compliance-6.9.82-all.zip" desc="Compliance" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="D. Fahland" maintainer="D. Fahland" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataAwareReplayerLGPL" />
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="DataPetriNetsLGPL" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Animation" version="6.9.75" os="all" url="http://www.promtools.org/prom6/packages612/Animation/Animation-6.9.75-all.zip" desc="Animation" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Saxon" version="6.9.69" os="all" url="http://www.promtools.org/prom6/packages612/Saxon/Saxon-6.9.69-all.zip" desc="Saxon" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="Mozilla Public License 2.0" author="Jan Martijn van der Werf, Felix Mannhardt" maintainer="Jan Martijn van der Werf, Felix Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataAwareReplayer" version="6.9.722" os="all" url="http://www.promtools.org/prom6/packages612/DataAwareReplayer/DataAwareReplayer-6.9.722-all.zip" desc="Multi-perspective Process Conformance Checking based on Alignments. Implements techniques presented in the article: 'Balanced multi-perspective checking of process conformance' (DOI: 10.1007/s00607-015-0441-1)" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Massimiliano de Leoni, Felix Mannhardt" maintainer="Massimiliano de Leoni, Felix Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataAwareReplayerLGPL" />
+    <dependency name="DataPetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ProM-Contexts" version="6.12.2" os="all" url="http://www.promtools.org/prom6/packages612/ProM-Contexts/ProM-Contexts-6.12.2-all.zip" desc="ProM-Contexts" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="ProM" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Framework" />
+  </package>
+  <package name="PNetReplayer" version="6.11.191" os="all" url="http://www.promtools.org/prom6/packages612/PNetReplayer/PNetReplayer-6.11.191-all.zip" desc="PNetReplayer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="A. Adriansyah" maintainer="A. Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="LogDialog" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataAwareCNetMiner" version="6.9.193" os="all" url="http://www.promtools.org/prom6/packages612/DataAwareCNetMiner/DataAwareCNetMiner-6.9.193-all.zip" desc="An interactive data-aware process discovery tool based on the ideas of the Heuristics Miner combined with classification techniques.            The Data-aware Heuristic Miner (DHM) implements a process discovery method that uses the data attributes to distinguish infrequent paths from random noise by using classification techniques.            Data- and control-flow of the process are discovered together. Moreover, an updated version of the standard Flexible Heuristics Miner is included." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="https://svn.win.tue.nl/repos/prom/Packages/DataAwareCNetMiner/Trunk/logo.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="CNet" />
+    <dependency name="Log" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="DataAwareCNetMinerHCG" />
+    <dependency name="DataDiscovery" />
+    <dependency name="BPMNConversions" />
+    <dependency name="XESLite" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="CausalActivityGraphCreator" />
+  </package>
+  <package name="LogDecomposer" version="6.9.53" os="all" url="http://www.promtools.org/prom6/packages612/LogDecomposer/LogDecomposer-6.9.53-all.zip" desc="Log Decomposer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+  </package>
+  <package name="Murata" version="6.12.5" os="all" url="http://www.promtools.org/prom6/packages612/Murata/Murata-6.12.5-all.zip" desc="Classical reduction rules for Petri nets" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="PetriNets" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ILPMiner" version="6.9.62" os="all" url="http://www.promtools.org/prom6/packages612/ILPMiner/ILPMiner-6.9.62-all.zip" desc="ILPMiner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F. van Dongen" maintainer="B.F. van Dongen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataExpression" version="6.9.55" os="all" url="http://www.promtools.org/prom6/packages612/DataExpression/DataExpression-6.9.55-all.zip" desc="Provides data expressions (aka. guards)." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogAbstractions" version="6.9.72" os="all" url="http://www.promtools.org/prom6/packages612/LogAbstractions/LogAbstractions-6.9.72-all.zip" desc="Log Abstractions" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek, B.F. van Dongen, S.J. van Zelst, L.M.A. Tonnaer" maintainer="H.M.W. Verbeek, B.F. van Dongen, S.J. van Zelst, L.M.A. Tonnaer" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="InductiveVisualMiner" version="6.12.1015" os="all" url="http://www.promtools.org/prom6/packages612/InductiveVisualMiner/InductiveVisualMiner-6.12.1015-all.zip" desc="Inductive visual Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="SJJ Leemans" maintainer="SJJ Leemans" logo="http://leemans.ch/figures/logoInductiveMiner.png" keywords="">
+    <dependency name="CohortAnalysis" />
+    <dependency name="GraphViz" />
+    <dependency name="EarthMoversStochasticConformanceChecking" />
+    <dependency name="Monte" />
+    <dependency name="XESLite" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+    <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="StatisticalTests" />
+    <dependency name="Visualisation3D" />
+    <dependency name="DirectlyFollowsModelMiner" />
+  </package>
+  <package name="Alignment" version="6.10.122" os="all" url="http://www.promtools.org/prom6/packages612/Alignment/Alignment-6.10.122-all.zip" desc="Alignment" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="B.F. van Dongen" maintainer="B.F. van Dongen" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="LpSolve" />
+    <dependency name="BasicUtils" />
+  </package>
+  <package name="TraceAlignment" version="6.9.56" os="all" url="http://www.promtools.org/prom6/packages612/TraceAlignment/TraceAlignment-6.9.56-all.zip" desc="Trace Alignment" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J.C. Bose" maintainer="J.C. Bose" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Fuzzy" version="6.9.66" os="all" url="http://www.promtools.org/prom6/packages612/Fuzzy/Fuzzy-6.9.66-all.zip" desc="Fuzzy Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek, C.W. Gunther, and J.F. Li" maintainer="H.M.W. Verbeek, C.W. Gunther, and J.F. Li" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="Animation" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LocalProcessModelDiscovery" version="6.9.141" os="all" url="http://www.promtools.org/prom6/packages612/LocalProcessModelDiscovery/LocalProcessModelDiscovery-6.9.141-all.zip" desc="LocalProcessModelDiscovery" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Niek Tax" maintainer="Niek Tax" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EvolutionaryTreeMiner" />
+    <dependency name="GraphVisualizers" />
+    <dependency name="AcceptingPetriNetClassicalReductor" />
+    <dependency name="MarkovClustering" />
+    <dependency name="XESLite" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="CPNet" version="6.11.138" os="all" url="http://www.promtools.org/prom6/packages612/CPNet/CPNet-6.11.138-all.zip" desc="CPNet" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M. Westergaard, S.J. van Zelst" maintainer="M. Westergaard, S.J. van Zelst" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="PetriNets" />
+    <dependency name="EMF" />
+  </package>
+  <package name="LPEngine" version="6.9.90" os="all" url="http://www.promtools.org/prom6/packages612/LPEngine/LPEngine-6.9.90-all.zip" desc="LPEngine" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="S.J. van Zelst, D.M.M. Schunselaar" maintainer="S.J. van Zelst, D.M.M. Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="LpSolve" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Weka" version="6.9.28" os="all" url="http://www.promtools.org/prom6/packages612/Weka/Weka-6.9.28-all.zip" desc="Weka" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="BPMNMeasures" version="6.9.57" os="all" url="http://www.promtools.org/prom6/packages612/BPMNMeasures/BPMNMeasures-6.9.57-all.zip" desc="BPMN to Petrinets and roolback" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="LGPL" author="R. Guanciale {guancio@gmail.com}, G. Spagnolo {spagnolo@di.unipi.it} et al." maintainer="R. Guanciale {guancio@gmail.com}, G. Spagnolo {spagnolo@di.unipi.it} et al." logo="http://compass2.di.unipi.it/Didattica/img/cheru.png" keywords="">
+    <dependency name="BPMN" />
+    <dependency name="InteractiveVisualization" />
+    <dependency name="PetriNetReplayAnalysis" />
+    <dependency name="Log" />
+    <dependency name="LogDialog" />
+    <dependency name="LogMerge" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="FilterBook" version="6.12.28" os="all" url="http://www.promtools.org/prom6/packages612/FilterBook/FilterBook-6.12.28-all.zip" desc="Filter Notebook" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataAwareCNetMinerHCG" version="6.9.3" os="all" url="http://www.promtools.org/prom6/packages612/DataAwareCNetMinerHCG/DataAwareCNetMinerHCG-6.9.3-all.zip" desc="An interactive data-aware process discovery tool based on the ideas of the Heuristics Miner combined with classification techniques.            The Data-aware Heuristic Miner (DHM) implements a process discovery method that uses the data attributes to distinguish infrequent paths from random noise by using classification techniques.            Data- and control-flow of the process are discovered together. Moreover, an updated version of the standard Flexible Heuristics Miner is included." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="https://svn.win.tue.nl/repos/prom/Packages/DataAwareCNetMiner/Trunk/logo.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="CausalActivityGraphCreator" />
+  </package>
+  <package name="PrimeMiner" version="6.12.17" os="all" url="http://www.promtools.org/prom6/packages612/PrimeMiner/PrimeMiner-6.12.17-all.zip" desc="Prime Miner" org="Fern Uni Hagen" auto="false" hasPlugins="true" license="GPL" author="Robin Bergenthum" maintainer="Robin Bergenthum" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DiSCover" version="6.12.50" os="all" url="http://www.promtools.org/prom6/packages612/DiSCover/DiSCover-6.12.50-all.zip" desc="Discover S-Cover" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNetClassicalReductor" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LPMSupportedWords" version="6.12.4" os="all" url="http://www.promtools.org/prom6/packages612/LPMSupportedWords/LPMSupportedWords-6.12.4-all.zip" desc="LPMSupportedWords" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Mitchel Brunings" maintainer="Mitchel Brunings" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="ModelRepair" />
+    <dependency name="AcceptingPetriNetMiner" />
+    <dependency name="BasicUtils" />
+    <dependency name="Precision" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="LogAlignment" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="InductiveMiner" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/InductiveMiner/InductiveMiner-6.12.1-all.zip" desc="Discovers process models from event logs recursively" org="Queensland University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="SJJ Leemans" maintainer="SJJ Leemans" logo="http://leemans.ch/figures/logoInductiveMiner.png" keywords="">
+    <dependency name="PNetReplayer" />
+    <dependency name="Sat4j" />
+    <dependency name="GraphViz" />
+    <dependency name="InductiveMinerDeprecated" />
+    <dependency name="ProcessTree" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="Properties" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="HybridILPMiner" version="6.10.154" os="all" url="http://www.promtools.org/prom6/packages612/HybridILPMiner/HybridILPMiner-6.10.154-all.zip" desc="HybridILPMiner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="S.J. van Zelst" maintainer="S.J. van Zelst" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="BasicUtils" />
+    <dependency name="CNet" />
+    <dependency name="Log" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="PetriNets" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="CausalActivityMatrixMiner" />
+    <dependency name="Murata" />
+    <dependency name="Widgets" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="DataAwareCNetMinerHCG" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="CausalActivityGraphCreator" />
+  </package>
+  <package name="ConceptDrift" version="6.9.58" os="all" url="http://www.promtools.org/prom6/packages612/ConceptDrift/ConceptDrift-6.9.58-all.zip" desc="ConceptDrift" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J.C. Bose" maintainer="J.C. Bose" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="MultiPerspectiveProcessExplorer" version="6.9.41" os="all" url="http://www.promtools.org/prom6/packages612/MultiPerspectiveProcessExplorer/MultiPerspectiveProcessExplorer-6.9.41-all.zip" desc="Multi-Perspective Process Explorer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Felix Mannhardt" maintainer="Felix Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="DataAwareExplorer" />
+  </package>
+  <package name="Petra" version="6.9.127" os="all" url="http://www.promtools.org/prom6/packages612/Petra/Petra-6.9.127-all.zip" desc="Petra" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Dennis Schunselaar" maintainer="Dennis Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="GPLv2Utils" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="CPNet" />
+    <dependency name="ProcessTree" />
+    <dependency name="Properties" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="EMF" />
+  </package>
+  <package name="StatisticalTests" version="6.12.3" os="all" url="http://www.promtools.org/prom6/packages612/StatisticalTests/StatisticalTests-6.12.3-all.zip" desc="Statistical Tests" org="Queensland University of Technology" auto="false" hasPlugins="true" license="GPL" author="S.J.J. Leemans" maintainer="S.J.J. Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Alignment" />
+    <dependency name="Widgets" />
+    <dependency name="EarthMoversStochasticConformanceChecking" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Log" version="6.12.5" os="all" url="http://www.promtools.org/prom6/packages612/Log/Log-6.12.5-all.zip" desc="Log" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek, F. Mannhardt, S.J. van Zelst" maintainer="H.M.W. Verbeek, F. Mannhardt, S.J. van Zelst" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Saxon" />
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PartialOrderReplayer" version="6.9.97" os="all" url="http://www.promtools.org/prom6/packages612/PartialOrderReplayer/PartialOrderReplayer-6.9.97-all.zip" desc="Partial Order Replayer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="X. Lu" maintainer="X. Lu" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="LpSolve" />
+    <dependency name="XESAlignmentExtension" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="FlexReplayer" version="6.9.55" os="all" url="http://www.promtools.org/prom6/packages612/FlexReplayer/FlexReplayer-6.9.55-all.zip" desc="Flex Replayer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Arya Adriansyah" maintainer="Arya Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="YAWL" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="Flex" />
+    <dependency name="LogDialog" />
+    <dependency name="PetriNets" />
+    <dependency name="PNAnalysis" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="HeuristicsMiner" version="6.10.78" os="all" url="http://www.promtools.org/prom6/packages612/HeuristicsMiner/HeuristicsMiner-6.10.78-all.zip" desc="HeuristicsMiner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J. Ribeiro" maintainer="J. Ribeiro" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="Flex" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="SLog" version="6.9.81" os="all" url="http://www.promtools.org/prom6/packages612/SLog/SLog-6.9.81-all.zip" desc="SLog" org="Universidad Catolica" auto="false" hasPlugins="true" license="L-GPL" author="J. Munoz et al." maintainer="J. Munoz et al." logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="COSAImportExport" version="6.9.49" os="all" url="http://www.promtools.org/prom6/packages612/COSAImportExport/COSAImportExport-6.9.49-all.zip" desc="COSA Import and Export" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Murata" />
+  </package>
+  <package name="ActivityClusterArrayExtractor" version="6.9.40" os="all" url="http://www.promtools.org/prom6/packages612/ActivityClusterArrayExtractor/ActivityClusterArrayExtractor-6.9.40-all.zip" desc="Activity Cluster Array Extractor" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="PNetReplayer" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+  </package>
+  <package name="LogSkeleton" version="6.12.9" os="all" url="http://www.promtools.org/prom6/packages612/LogSkeleton/LogSkeleton-6.12.9-all.zip" desc="Log Skeleton" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages/LogSkeleton/lib/images/prom_duck.png" keywords="">
+    <dependency name="PDC2017" />
+    <dependency name="PDC2016" />
+    <dependency name="Widgets" />
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="PDC2019" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="MarkovClustering" version="6.9.26" os="all" url="http://www.promtools.org/prom6/packages612/MarkovClustering/MarkovClustering-6.9.26-all.zip" desc="Markov Clustering" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F.A. Hompes and M. Leemans and N. Tax" maintainer="B.F.A. Hompes and M. Leemans and N. Tax" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataPetriNets" version="6.9.465" os="all" url="http://www.promtools.org/prom6/packages612/DataPetriNets/DataPetriNets-6.9.465-all.zip" desc="DataPetriNets" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Massimiliano de Leoni" maintainer="Massimiliano de Leoni" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataPetriNetsLGPL" />
+    <dependency name="Weka" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="XESStandardConnector" version="6.10.19" os="all" url="http://www.promtools.org/prom6/packages612/XESStandardConnector/XESStandardConnector-6.10.19-all.zip" desc="XES Standard Connector, connects XES Standard with existing ProM" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="XESStandard" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Sat4j" version="6.9.7" os="all" url="http://www.promtools.org/prom6/packages612/Sat4j/Sat4j-6.9.7-all.zip" desc="Sat4j" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Sander Leemans" maintainer="Sander Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="KitFox" version="6.9.6" os="all" url="http://www.promtools.org/prom6/packages612/KitFox/KitFox-6.9.6-all.zip" desc="KitFox (with some fixes)" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Sander Leemans" maintainer="Sander Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DirectlyFollowsModelMiner" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/DirectlyFollowsModelMiner/DirectlyFollowsModelMiner-6.12.1-all.zip" desc="Directly Follows Model Miner" org="Queensland University of Technology" auto="false" hasPlugins="true" license="GPL" author="Sander Leemans" maintainer="Sander Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="GraphVisualizers" version="6.9.51" os="all" url="http://www.promtools.org/prom6/packages612/GraphVisualizers/GraphVisualizers-6.9.51-all.zip" desc="GraphViz visualization of ProM graphs" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="GraphViz" />
+    <dependency name="Widgets" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="Fuzzy" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="PetriNets" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+  </package>
+  <package name="Petrify" version="6.9.48" os="all" url="http://www.promtools.org/prom6/packages612/Petrify/Petrify-6.9.48-all.zip" desc="Petrify" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="PetriNets" />
+    <dependency name="TransitionSystems" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="TraceAlignmentWithGuideTree" version="6.9.63" os="all" url="http://www.promtools.org/prom6/packages612/TraceAlignmentWithGuideTree/TraceAlignmentWithGuideTree-6.9.63-all.zip" desc="Trace Alignment with Guide Tree" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="J.C. Bose" maintainer="J.C. Bose" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="GuideTreeMiner" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="YAWL" version="6.9.64" os="all" url="http://www.promtools.org/prom6/packages612/YAWL/YAWL-6.9.64-all.zip" desc="YAWL" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="Performance" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Woflan" version="6.10.67" os="all" url="http://www.promtools.org/prom6/packages612/Woflan/Woflan-6.10.67-all.zip" desc="Woflan" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="ModelRepair" version="6.11.69" os="all" url="http://www.promtools.org/prom6/packages612/ModelRepair/ModelRepair-6.11.69-all.zip" desc="Model Repair" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="D. Fahland" maintainer="D. Fahland" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="ILPMiner" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="Uma" />
+    <dependency name="PetriNets" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="CausalActivityMatrix" version="6.9.59" os="all" url="http://www.promtools.org/prom6/packages612/CausalActivityMatrix/CausalActivityMatrix-6.9.59-all.zip" desc="Causal Activity Matrix" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="OSService" version="6.9.57" os="all" url="http://www.promtools.org/prom6/packages612/OSService/OSService-6.9.57-all.zip" desc="Operational Support Service" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="M. Westergaard" maintainer="M. Westergaard" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="CausalActivityGraphCreator" version="6.9.55" os="all" url="http://www.promtools.org/prom6/packages612/CausalActivityGraphCreator/CausalActivityGraphCreator-6.9.55-all.zip" desc="Causal Activity Graph Creator" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="GraphVisualizers" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="ActivityClusterArrayCreator" />
+    <dependency name="CausalActivityMatrix" />
+    <dependency name="CausalActivityGraph" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+    <dependency name="CausalActivityMatrixMiner" />
+  </package>
+  <package name="ProM-Plugins" version="6.12.1" os="all" url="http://www.promtools.org/prom6/packages612/ProM-Plugins/ProM-Plugins-6.12.1-all.zip" desc="ProM-Plugins" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="ProM" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProM-Models" />
+    <dependency name="ProM-Contexts" />
+  </package>
+  <package name="Statechart" version="6.9.76" os="all" url="http://www.promtools.org/prom6/packages612/Statechart/Statechart-6.9.76-all.zip" desc="Statechart" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="M. Leemans" maintainer="M. Leemans" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="ProjectedRecallAndPrecision" />
+    <dependency name="Widgets" />
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ProcessTree" />
+    <dependency name="ApacheUtils" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="XESLite" />
+    <dependency name="Properties" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="InductiveMiner" />
+  </package>
+  <package name="ProM-Framework" version="6.12.3" os="all" url="http://www.promtools.org/prom6/packages612/ProM-Framework/ProM-Framework-6.12.3-all.zip" desc="ProM-Framework" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="ProM" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+  </package>
+  <package name="Daikon" version="6.9.31" os="all" url="http://www.promtools.org/prom6/packages612/Daikon/Daikon-6.9.31-all.zip" desc="Daikon library" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="Daikon-specific license" author="F. Mannhardt" maintainer="F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+  </package>
+  <package name="LTL2Automaton" version="6.9.86" os="all" url="http://www.promtools.org/prom6/packages612/LTL2Automaton/LTL2Automaton-6.9.86-all.zip" desc="LTL2Automaton" org="University of Tartu" auto="false" hasPlugins="true" license="L-GPL" author="Fabrizio Maggi" maintainer="Fabrizio Maggi" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="BPMN" version="6.9.96" os="all" url="http://www.promtools.org/prom6/packages612/BPMN/BPMN-6.9.96-all.zip" desc="BPMN Support" org="Moscow The Higher School of Economics" auto="false" hasPlugins="true" license="L-GPL" author="Anna Kalenkova" maintainer="Anna Kalenkova" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogTimeFilter" version="6.9.55" os="all" url="http://www.promtools.org/prom6/packages612/LogTimeFilter/LogTimeFilter-6.9.55-all.zip" desc="Log Time Filter" org="University of Padua" auto="false" hasPlugins="true" license="L-GPL" author="Andrea Burattin" maintainer="Andrea Burattin" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="XESStandard" version="6.10.126" os="all" url="http://www.promtools.org/prom6/packages612/XESStandard/XESStandard-6.10.126-all.zip" desc="IEEE XES Standard 1849(TM)-2016" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LocalizedLogs" version="6.9.88" os="all" url="http://www.promtools.org/prom6/packages612/LocalizedLogs/LocalizedLogs-6.9.88-all.zip" desc="Localized Logs" org="Higher school of economics" auto="false" hasPlugins="true" license="GPL" author="Kalenkova A." maintainer="Kalenkova A." logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="Properties" />
+    <dependency name="PNAnalysis" />
+    <dependency name="LPEngine" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="BPMN" />
+    <dependency name="DivideAndConquer" />
+    <dependency name="Widgets" />
+    <dependency name="ProcessTree" />
+    <dependency name="Flex" />
+    <dependency name="ApacheUtils" />
+    <dependency name="BPMNConversions" />
+  </package>
+  <package name="CNetReplayer" version="6.9.64" os="all" url="http://www.promtools.org/prom6/packages612/CNetReplayer/CNetReplayer-6.9.64-all.zip" desc="Causal Net Replayer" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Arya Adriansyah" maintainer="Arya Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="PNetReplayer" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="CNet" />
+    <dependency name="Log" />
+    <dependency name="LogDialog" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Performance" version="6.9.59" os="all" url="http://www.promtools.org/prom6/packages612/Performance/Performance-6.9.59-all.zip" desc="Performance" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="A. Adriansyah" maintainer="A. Adriansyah" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PDC2019" version="6.9.19" os="all" url="http://www.promtools.org/prom6/packages612/PDC2019/PDC2019-6.9.19-all.zip" desc="PDC 2019 Event log collection" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogDialog" version="6.12.3" os="all" url="http://www.promtools.org/prom6/packages612/LogDialog/LogDialog-6.12.3-all.zip" desc="LogDialog" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek, M. de Leoni, S.J. van Zelst, B.F.A. Hompes" maintainer="H.M.W. Verbeek, M. de Leoni, S.J. van Zelst, B.F.A. Hompes" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="InteractiveVisualization" />
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="PTMerge" version="6.9.75" os="all" url="http://www.promtools.org/prom6/packages612/PTMerge/PTMerge-6.9.75-all.zip" desc="PTMerge" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Dennis Schunselaar" maintainer="Dennis Schunselaar" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="BasicUtils" />
+    <dependency name="LpSolve" />
+    <dependency name="ProcessTree" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LpSolve" version="5.5.4" os="win64" url="http://www.promtools.org/prom6/packages612/LpSolve/LpSolve_5.5.0.15_win64.zip" desc="LpSolve for Windows 64bit" org="SourceForge" auto="false" hasPlugins="false" license="L-GPL" author="Keikland ,LpSolve,peno64" maintainer="Keikland ,LpSolve,peno64" logo="http://www.promtools.org/prom6/packages612/" keywords="">
+  </package>
+  <package name="HeuristicsCNetMiner" version="6.9.44" os="all" url="http://www.promtools.org/prom6/packages612/HeuristicsCNetMiner/HeuristicsCNetMiner-6.9.44-all.zip" desc="HeuristicsCNetMiner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="Maikel van Eck" maintainer="Maikel van Eck" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="HeuristicsMiner" />
+    <dependency name="Flex" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="LogAlignment" version="6.9.149" os="all" url="http://www.promtools.org/prom6/packages612/LogAlignment/LogAlignment-6.9.149-all.zip" desc="LogAlignment" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="EfficientStorage" />
+    <dependency name="Widgets" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="ApacheUtils" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="ActivityClusterArray" />
+  </package>
+  <package name="XESLite" version="6.9.338" os="all" url="http://www.promtools.org/prom6/packages612/XESLite/XESLite-6.9.338-all.zip" desc="XESLite provides solutions to manage large event logs, which are compatible with the OpenXES interfaces.    XESLite can be used as drop-in replacement of OpenXES. XESLite provides three importers: Automaton, In-Memory, and MapDB Database.    XESLite is describes in the BPM Center Report: F Mannhardt (2016). XESLite - Managing Large XES Event Logs in ProM. BPMCenter.org. BPM-16-04. BPM Center Report.    Moreover, it also provides an indexed version of an XLog (XIndexedLog), which can be searched efficiently with the use of indexes." org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="F. Mannhardt" maintainer="F. Mannhardt" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="Uma" version="6.9.96" os="all" url="http://www.promtools.org/prom6/packages612/Uma/Uma-6.9.96-all.zip" desc="Uma" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="D. Fahland" maintainer="D. Fahland" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="PNetReplayer" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="LpSolve" />
+    <dependency name="OSService" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="EfficientStorage" />
+    <dependency name="InteractiveVisualization" />
+    <dependency name="ILPMiner" />
+    <dependency name="Widgets" />
+    <dependency name="LogDialog" />
+    <dependency name="Animation" />
+    <dependency name="TransitionSystems" />
+  </package>
+  <package name="FeaturePrediction" version="6.9.125" os="all" url="http://www.promtools.org/prom6/packages612/FeaturePrediction/FeaturePrediction-6.9.125-all.zip" desc="Prediction of Business Process Features" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Massimiliano de Leoni" maintainer="Massimiliano de Leoni" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="DataPetriNets" />
+    <dependency name="Widgets" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="ApacheUtils" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="XESLite" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DataAwareExplorer" version="6.9.420" os="all" url="http://www.promtools.org/prom6/packages612/DataAwareExplorer/DataAwareExplorer-6.9.420-all.zip" desc="Provides the Multi-perspective Explorer (MPE). Explore the data-, resource-, time- and control-flow perspective of a Petri net given an event log.    This plug-in starts an interactive tool to discover data-aware models, analyse them and check the conformance according to event data.    It integrates functionality of the packages 'DataAwareReplayer', 'DataPetriNets' and 'LogEnhancement'. The 'GraphViz' package is used for graph visualization.   The MPE is described in the BPM'15 demo paper: http://ceur-ws.org/Vol-1418/paper27.pdf" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="GPL" author="Felix Mannhardt" maintainer="Felix Mannhardt" logo="https://fmannhardt.de/images/multi-perspective-explorer.png" keywords="">
+    <dependency name="GraphViz" />
+    <dependency name="BasicUtils" />
+    <dependency name="Log" />
+    <dependency name="DataAwareReplayer" />
+    <dependency name="XESAlignmentExtension" />
+    <dependency name="DataDiscovery" />
+    <dependency name="XESLite" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="Widgets" />
+    <dependency name="ApacheUtils" />
+    <dependency name="LogEnhancement" />
+    <dependency name="DataPetriNetsLGPL" />
+  </package>
+  <package name="UncertaintyMarker" version="6.9.19" os="all" url="http://www.promtools.org/prom6/packages612/UncertaintyMarker/UncertaintyMarker-6.9.19-all.zip" desc="Uncertainty Marker" org="University of Mannheim" auto="false" hasPlugins="true" license="L-GPL" author="O. Meier" maintainer="O. Meier" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="Widgets" />
+    <dependency name="Log" />
+    <dependency name="BasicUtils" />
+    <dependency name="AlphaMiner" />
+    <dependency name="ProcessTree" />
+    <dependency name="ApacheUtils" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="AlphaMiner" version="6.9.78" os="all" url="http://www.promtools.org/prom6/packages612/AlphaMiner/AlphaMiner-6.9.78-all.zip" desc="Alpha Miner" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="B.F. van Dongen, S.J. van Zelst, L.M.A. Tonnaer" maintainer="B.F. van Dongen, S.J. van Zelst, L.M.A. Tonnaer" logo="http://www.promtools.org/prom6/packages612/prom_subtitle_hat_300.png" keywords="">
+    <dependency name="LogAbstractions" />
+    <dependency name="Log" />
+    <dependency name="AcceptingPetriNet" />
+    <dependency name="PetriNets" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="DivideAndConquer" version="6.9.91" os="all" url="http://www.promtools.org/prom6/packages612/DivideAndConquer/DivideAndConquer-6.9.91-all.zip" desc="Divide And Conquer Decomposition Framework" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="DecomposedMiner" />
+    <dependency name="LogDialog" />
+    <dependency name="DecomposedReplayer" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="SimpleLogOperations" version="6.9.60" os="all" url="http://www.promtools.org/prom6/packages612/SimpleLogOperations/SimpleLogOperations-6.9.60-all.zip" desc="SimpleLogOperations" org="Ghent University" auto="false" hasPlugins="true" license="L-GPL" author="Jan Claes" maintainer="Jan Claes" logo="http://www.janclaes.info/img/ugentlogo300.jpg" keywords="">
+    <dependency name="Log" />
+    <dependency name="ProM-Plugins" />
+  </package>
+  <package name="RunnerUpPackages" version="6.12.4" os="all" url="http://www.promtools.org/prom6/packages612/RunnerUpPackages/RunnerUpPackages-6.12.4-all.zip" desc="Runner Up Packages" org="Eindhoven University of Technology" auto="false" hasPlugins="true" license="L-GPL" author="H.M.W. Verbeek" maintainer="H.M.W. Verbeek" logo="http://www.promtools.org/prom6/packages612/Log/lib/images/prom_duck_300.png" keywords="">
+    <dependency name="LPMSupportedWords" />
+    <dependency name="EstablishedPackages" />
+    <dependency name="CSMMiner" />
+    <dependency name="Filterd" />
+    <dependency name="AutoAssociationPlot" />
+    <dependency name="ComplianceFramework" />
+    <dependency name="DiSCover" />
+    <dependency name="ProM-Plugins" />
+    <dependency name="GeneralizedConformance" />
+    <dependency name="LocalProcessModelDiscovery" />
+    <dependency name="PTLinearVisualization" />
+    <dependency name="TraceClustering" />
+    <dependency name="LinearLayouts" />
+    <dependency name="MarkovClustering" />
+    <dependency name="PerformanceSpectrumIntegration" />
+  </package>
   </installed-packages>
 </packages>
