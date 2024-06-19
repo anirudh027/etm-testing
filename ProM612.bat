@@ -5,10 +5,10 @@
  @GOTO :eof
 
 :start
-@set X=.\dist\ProM-Framework-6.10.110.jar
-@set X=%X%;.\dist\ProM-Contexts-6.10.62.jar
-@set X=%X%;.\dist\ProM-Models-6.10.40.jar
-@set X=%X%;.\dist\ProM-Plugins-6.9.70.jar
+@set X=.\dist\ProM-Framework-6.12.3.jar
+@set X=%X%;.\dist\ProM-Contexts-6.12.2.jar
+@set X=%X%;.\dist\ProM-Models-6.12.1.jar
+@set X=%X%;.\dist\ProM-Plugins-6.12.1.jar
 
 @for /R .\lib %%I IN ("*.jar") DO @call :add .\lib\%%~nI.jar
 

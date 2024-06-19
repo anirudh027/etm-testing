@@ -4,7 +4,7 @@
 ## ProM specific
 ###
 PROGRAM=ProM
-CP=./dist/ProM-Framework-6.10.110.jar:./dist/ProM-Contexts-6.10.62.jar:./dist/ProM-Models-6.10.40.jar:./dist/ProM-Plugins-6.9.70.jar
+CP=./dist/ProM-Framework-6.12.3.jar:./dist/ProM-Contexts-6.12.2.jar:./dist/ProM-Models-6.12.1.jar:./dist/ProM-Plugins-6.12.1.jar
 LIBDIR=./lib
 MAIN=org.processmining.contexts.uitopia.UI
 
